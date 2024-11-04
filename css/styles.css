@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #ffff;
+
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 24px;
+    margin-bottom: 24px;
+    border: solid;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: #2E2F42;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    margin-right: 36px;
+
+}
+.blue-part-of-logo{
+    color: #4D5AE5;
+}
+.navigation{
+    display: flex;
+}
+/* ul.menu {
+    margin: 0; 
+   
+} */
+.menu li{
+    display: inline; 
+    margin-right: 40px;
+    
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2E2F42; 
+}
+.menu li a{
+    color: #2E2F42;
+}
+
+.contact li{
+    display: inline;
+    margin-right: 40px;  
+}
+.contact li a{
+    color: #434455;
+}
