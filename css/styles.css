@@ -103,3 +103,92 @@ header{
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
+.advantages-page{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 156px;
+    padding-left: 156px;
+    display: flex;
+}
+.advantage{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.advantage-descr{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.advantages-list{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 24px;
+}
+.advantages-list:last-child{
+    padding-left: 0;
+}
+.our-team-page{
+    background-color: #F4F4FD;
+    padding-right: 156px;
+    padding-left: 156px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    text-align: center;
+}
+.our-team-page-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.team-list{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 24px;
+    padding: 0;
+    border: solid;
+}
+.team-list:last-child{
+    gap:0;
+    padding-left: 0;
+}
+.team-list li{
+    padding: 0;
+    margin: 0;
+}
+.member-header{
+    width: 264px;
+    margin: auto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #fff;
+}
+.member-descr{
+    width: 264px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    background-color: #fff;
+}
+
