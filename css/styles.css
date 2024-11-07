@@ -122,6 +122,9 @@ color: #434455;
     text-align: center;
     text-transform: capitalize;
 }
+.our-team-page{
+    background-color: #F4F4FD 
+}
 
 .team-member{
     background-color: #fff;
@@ -134,7 +137,6 @@ color: #434455;
     color: #2e2f42;
 }
 .description{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
